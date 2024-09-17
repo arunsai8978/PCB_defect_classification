@@ -1,6 +1,5 @@
 # PCB_defect_classification
 
-PCB Defect Classification
 **1. Project Title**
 PCB defect classification using API with YOLO and Faster R-CNN.
 
@@ -51,12 +50,13 @@ The script will parse XML annotations, count image and annotation files, and dis
 - cmd/terminal: curl -X POST "http://localhost:8000/predict/" -F "file=@D:/JOB/PCB_DATASET/images/Missing_hole/01_missing_hole_01.jpg"
 
 # Call backs for predctions and vaisualization
-**-Prediction Endpoint:**
+-**-Prediction Endpoint:**
 -Endpoint: /predict/
 -Method: POST
 -Input: Upload an image file (UploadFile)
 -Output: JSON response with prediction and metrics.
-**-Visualization Endpoint:**
+
+-**-Visualization Endpoint:**
 -Endpoint: /visualize/
 -Method: POST
 -Input: Upload an image file (UploadFile)
