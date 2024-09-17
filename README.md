@@ -22,6 +22,30 @@ Run the main script for training the model and visulaize the predictions.
 The script will parse XML annotations, count image and annotation files, and display images with annotated defects. It will then undergo an image preprocessing pipeline, data shuffling, data splitting, and Stratified K-Fold cross-validation. The model will be trained with a grid search of hyperparameters, and predictions will be obtained from the model. These predictions will be converted back to their original form to draw bounding boxes for visualization
 5. Libraries used: 
 
+
+
+**Libraries used:**
+
+- FastAPI
+- Pydantic
+- Torch
+- Torchvision
+- PIL (Pillow)
+- Ultralytics YOLO
+- OpenCV
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Psycopg2
+- YAML
+- Shutil
+- XML.etree.ElementTree
+- Pathlib
+- JSON
+- Collections
+- OS
+
 FastAPI: For building the web API.
 Pydantic: For data validation.
 Torch: For deep learning and model training.
