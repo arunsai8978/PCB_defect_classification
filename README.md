@@ -48,6 +48,8 @@ The script will parse XML annotations, count image and annotation files, and dis
 ## Start the API
 - uvicorn main:app --host 0.0.0.0 --port 8000
 - cmd/terminal: curl -X POST "http://localhost:8000/predict/" -F "file=@D:/JOB/PCB_DATASET/images/Missing_hole/01_missing_hole_01.jpg"
+- curl -X POST "http://localhost:8000/visualize/" -F "file=@D:/JOB/PCB_DATASET/images/Missing_hole/01_missing_hole_01.jpg"
+
 
 # Call backs for predctions and vaisualization
 -**-Prediction Endpoint:**
