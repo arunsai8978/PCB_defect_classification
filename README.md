@@ -47,7 +47,7 @@ OS: For operating system interactions.
 
 # PCB_API
 
-# start the API
+## start the API
 uvicorn main:app --host 0.0.0.0 --port 8000
 cmd/terminal: curl -X POST "http://localhost:8000/predict/" -F "file=@D:/JOB/PCB_DATASET/images/Missing_hole/01_missing_hole_01.jpg"
 
