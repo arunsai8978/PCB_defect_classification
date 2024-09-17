@@ -1,10 +1,6 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel
-import torch
-from torchvision.models.detection import fasterrcnn_resnet50_fpn
-from PIL import Image, ImageDraw
-import io
 import psycopg2
 import yaml
 import numpy as np
